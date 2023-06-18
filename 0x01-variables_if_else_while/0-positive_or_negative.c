@@ -1,15 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - a c program that will assign every radom number to the variable n each time it is executed
- * Return: Always 0 (success)
- */
-
+ * main - Entry Point
+ * Return: 0 (success)
+*/
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
