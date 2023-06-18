@@ -10,9 +10,9 @@ int main(void)
 
 	int d;
 
-	for (d = 0; d < 10; d++)
+	for (d = 0; d <= 9; d++)
 	{
-		putchar("%d", d);
+		putchar((d % 10) + '0');
 	}
 	putchar("\n");
 	return (0);
