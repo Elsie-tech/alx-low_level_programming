@@ -11,7 +11,7 @@ int main(void)
 	int a;
 	int b;
 
-	for (a == '0'; a < '9'; a++)
+	for (a = '0'; a < '9'; a++)
 	{
 		for (b = a + 1; b <= '9'; b++)
 		{
@@ -19,7 +19,7 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-				if (a == '8' && p == '9')
+				if (a == '8' && a == '9')
 					continue;
 				putchar(',');
 				putchar(' ');
